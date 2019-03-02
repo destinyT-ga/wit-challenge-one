@@ -1,0 +1,66 @@
+html, body {
+color: brown
+
+}
+
+#NavBar { 
+    position: fixed;
+    height:100%;
+    top: 0;
+    left: 0;
+    border-color: blueviolet;
+    border-right: solid; 
+    width: 20%; 
+}
+
+#NavBar a{ 
+    color: blue;
+    text-decoration: none; 
+    cursor: pointer; 
+} 
+
+#NavBar ul{
+    color: brown; 
+    height: 50%;
+    overflow-x:auto ; 
+    overflow-y: hidden; 
+}
+#NavBar li{
+    color: blue;
+    left: 20px;
+    border-bottom:  0px; 
+    list-style: none; 
+
+}
+
+#maindoc{
+    width: 70%;
+    left:25%;
+    position: relative; 
+
+}
+
+header {
+color: blue;
+font-size: 30px;
+margin: 20px;
+text-align: justify; 
+
+}
+
+section header{
+    color: blue;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; 
+    
+}
+
+section li{ 
+    margin: 14px, 20px; 
+}
+section article{
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+ 
